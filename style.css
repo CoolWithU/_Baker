@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+	font-family: "Pretendard-Regular", sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#loading {
+  text-align: center;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 52px;
+  padding: 1px;
+  background-color: #fff;
+
+  border: 1px solid #000000;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
+  box-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.copied {
+	text-align:left;
+	position: absolute;
+	width: 495px;
+  height: 30px;
+  padding: 1px;
+  background-color:transparent;
+	color:#000;
+	visibility:hidden;
+  border: 1px solid #000000;
+	text-align:left;
+  border-radius: 8px;
+	margin-top:10px;
+}
+
+.copiedText {
+	top:-5px;
+	position:absolute;
+	font-size:14px;
+	visibility:hidden;
+  content: '';
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.dirter {
+  font-family: 'Pretendard-Black';
+  font-size:100px; 
+  text-shadow: 0 5px 10px 0 rgba(117,145,181,.12);
+}
+
+.icon {
+    margin-top: 10px;
+    width: 25px;
+    height: auto;
+    margin-right: 14px;
+}
+
+.input {
+  position: relative;
+  width: 400px;
+  border: transparent;
+  background: 0 0;
+  padding: 14px 0;
+  font-size: 16px;
+  box-sizing: content-box;
+  bottom: 5px;
+}
+
+.input::placeholder {
+  color: #b0b0b0;
+}
+
+.input:focus {
+  outline: none;
+}
